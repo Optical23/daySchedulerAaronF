@@ -15,12 +15,12 @@ for (let i = 9; i < 18; i++) {
 function buildSchedule(index){
     //local storage check for saved tasks
     var savedtasks = localStorage.getItem(timeset(index)+"tasks");
-    
+
     var rowContainer = document.createElement("div");
     rowContainer.setAttribute("class", "row w-100 m-auto px-3");
     rowContainer.setAttribute("style", "height:80px; padding-top:3px;")
     
-    
+     
     var timeCol = document.createElement("div");
     timeCol.setAttribute("class", "col-1 p-2 px-3 text-right border border-left-0");
     var inputCol = document.createElement("div");
