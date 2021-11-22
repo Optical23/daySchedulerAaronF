@@ -1,4 +1,6 @@
 # Work Day Scheduler Aaron Ferguson
+Deployed link: https://optical23.github.io/daySchedulerAaronF/
+
 The way I completed this challenge was by first writing out what I needed in html and adding the bootstrap and knowing what I wanted before trying to build it dynamically
 
 Once I got to the Script.js file I started with the simple display time which I just used the moment api for
