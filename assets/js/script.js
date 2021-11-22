@@ -20,7 +20,7 @@ function buildSchedule(index){
     rowContainer.setAttribute("class", "row w-100 m-auto px-3");
     rowContainer.setAttribute("style", "height:80px; padding-top:3px;")
     
-     
+      
     var timeCol = document.createElement("div");
     timeCol.setAttribute("class", "col-1 p-2 px-3 text-right border border-left-0");
     var inputCol = document.createElement("div");
@@ -63,7 +63,7 @@ function timeset(index){
 }
 
 function inputclass(index){
-    realTime = moment().hour() - 5;
+    realTime = moment().hour();
     if(index < realTime){
         return "past w-100 h-100 p-0";
     }else if(index == realTime){
